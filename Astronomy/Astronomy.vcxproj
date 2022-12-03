@@ -19,12 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Astronomy\Log.h" />
     <ClInclude Include="src\Astronomy.h" />
     <ClInclude Include="src\Astronomy\Application.h" />
     <ClInclude Include="src\Astronomy\Core.h" />
     <ClInclude Include="src\Astronomy\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Astronomy\Log.cpp" />
     <ClCompile Include="src\Astronomy\Application.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -105,6 +107,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>ASTRO_PLATFORM_WINDOWS;ASTRO_BUILD_DLL</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Astronomy\libs\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -117,8 +120,9 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>ASTRO_PLATFORM_WINDOWS;ASTRO_BUILD_DLL</PreprocessorDefinitions>
+      <PreprocessorDefinitions>ASTRO_PLATFORM_WINDOWS;ASTRO_BUILD_DLL;</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Astronomy\libs\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -133,6 +137,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>ASTRO_PLATFORM_WINDOWS;ASTRO_BUILD_DLL</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Astronomy\libs\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -145,8 +150,9 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>ASTRO_PLATFORM_WINDOWS;ASTRO_BUILD_DLL</PreprocessorDefinitions>
+      <PreprocessorDefinitions>ASTRO_PLATFORM_WINDOWS;ASTRO_BUILD_DLL;</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Astronomy\libs\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

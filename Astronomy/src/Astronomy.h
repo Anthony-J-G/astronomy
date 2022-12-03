@@ -6,6 +6,7 @@
 
 
 #include "Astronomy/Application.h"
+#include "Astronomy/Log.h"
 
 
 // **** Entry Point *****

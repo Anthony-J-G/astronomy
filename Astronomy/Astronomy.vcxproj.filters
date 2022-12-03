@@ -27,9 +27,15 @@
     <ClInclude Include="src\Astronomy\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Astronomy\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Astronomy\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Astronomy\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
