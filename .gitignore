@@ -1,3 +1,11 @@
+# Ignore Visual Studio Files
+.vs/
+*.user
+
+# Directories
+bin/
+obj/
+
 # Prerequisites
 *.d
 
